@@ -1,5 +1,4 @@
 <!-- WhatsHelp.io widget -->
-<script type="text/javascript">
     (function () {
         var options = {
 					
@@ -10,7 +9,7 @@
                         whatsapp: "+55 (98) 98116-8061", // WhatsApp number
            
             company_logo_url: "https://i.imgur.com/1UQh4fw.png", // URL of company logo (png, jpg, gif)
-            greeting_message: "Bem vindo ao site do Correio Buritiense, envie-nos seu coment·rio ou sugest„o de notÌcia.", // Text of greeting message
+            greeting_message: "Bem vindo ao site do Correio Buritiense, envie-nos seu coment√°rio ou sugest√£o de not√≠cia.", // Text of greeting message
             call_to_action: "Fale Conosco", // Call to action
             button_color: "#A8CE50", // Color of button
             position: "left", // Position may be 'right' or 'left'
@@ -21,5 +20,5 @@
         s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
         var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
     })();
-</script>
+
 <!-- /WhatsHelp.io widget -->
